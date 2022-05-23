@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+@media(min-width:768px){
+    .Box-1{
+        
+        word-wrap: break-word;
+        margin-right: 200 px;
+        margin-left:  200px;
+        margin-top:  50px;
+        text-align: left;
+        border: 1px solid white;
+        background-color: white;
+        align-items: stretch;
+        flex-direction: row;
+        flex: 1px;
+         /*width: 743px;width: 740px;*/
+    }
+    
+    .Text1{
+        
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+        margin-right:200 px;
+        margin-left: 200 px;
+        margin-bottom:  50px;
+    }
+ 
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.Box-1{
+    word-wrap: break-word;
+    padding:20px;
+    margin-right:40px;
+    margin-left:80px;
+    margin-top:  50px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    align-items: stretch;
+    flex-direction: row;
+    flex: 1px;
+}
+
+.Box-1 h2{
+    color: #08f0a2;  
+}
+
+.Box-1 h3{
+    color: #d3f124;  
+}
+
+.Box-1 p{
+    color: #d6d1d1;  
+}
+
+
+.Text1{
+        align-items: stretch;
+        flex-direction: row;
+        margin-right:40px;
+        margin-left:80px;
+        margin-bottom:  50px;
+}
+
+
+.Text1 div{
+    padding:20px;
+    text-align: left;
+}
+
+.Box-2{
+    border: 1px solid #38c596;
+    background-color: #38c596;
+    flex: 1px;
+}
+
+.Box-3{
+    border: 1px solid #08f0a2;
+    background-color: #08f0a2;
+    flex: 1px;
+}
+
+.Box-2 h2{
+   color: wheat;
+}
+
+.Box-2 p1{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.Box-2 p2{
+    color: #b8d4cb;
+    font-size:20px;
+    margin: 10px;
+}
+
+.Box-2 p3{
+    color: rgba(241, 227, 227, 0.89);
+    font-size: 18px;
+}
+
+.Box-2 input{
+    background-color: rgba(186, 252, 7, 0.89);
+    font-size: 17px;
+    border-radius: 8px ;
+    border-width:thin;
+    border-color: rgba(186, 252, 7, 0.89);
+    color: white;
+    font-style: bold;
+    margin-top: 30px;
+    padding-right:100px;
+    padding-left:100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+.Box-2 input:hover{
+    background-color: rgba(154, 202, 21, 0.89);;
+    cursor: pointer;
+}
+
+.Box-3 h2{
+    color: wheat;
+ }
+
+ .Box-3 p{
+    color: rgba(241, 227, 227, 0.89);
+    font-size: 15px;
+}
+
+[class*="X"]{
+    width: 100;
+}
